@@ -31,7 +31,7 @@ struct ColorMixView: View {
 
 struct ColorMixView_Previews: PreviewProvider {
     static var previews: some View {
-        ColorMixView(red: 40, green: 50, blue: 40)
+        ColorMixView(red: 70, green: 10, blue: 40)
     }
 }
 
