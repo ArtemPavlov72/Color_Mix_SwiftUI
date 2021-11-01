@@ -12,6 +12,7 @@
 		884F8B6C272F0A3400886F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884F8B6B272F0A3400886F29 /* Assets.xcassets */; };
 		884F8B6F272F0A3400886F29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884F8B6E272F0A3400886F29 /* Preview Assets.xcassets */; };
 		884F8B76272F0B3200886F29 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F8B75272F0B3200886F29 /* SliderView.swift */; };
+		88729DE1272F216B00ED067C /* ColorMixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88729DE0272F216B00ED067C /* ColorMixView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		884F8B6B272F0A3400886F29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		884F8B6E272F0A3400886F29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		884F8B75272F0B3200886F29 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		88729DE0272F216B00ED067C /* ColorMixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMixView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				884F8B67272F0A3300886F29 /* ColorMix2App.swift */,
 				884F8B69272F0A3300886F29 /* ContentView.swift */,
+				88729DE0272F216B00ED067C /* ColorMixView.swift */,
 				884F8B75272F0B3200886F29 /* SliderView.swift */,
 				884F8B6B272F0A3400886F29 /* Assets.xcassets */,
 				884F8B6D272F0A3400886F29 /* Preview Content */,
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				884F8B6A272F0A3300886F29 /* ContentView.swift in Sources */,
+				88729DE1272F216B00ED067C /* ColorMixView.swift in Sources */,
 				884F8B76272F0B3200886F29 /* SliderView.swift in Sources */,
 				884F8B68272F0A3300886F29 /* ColorMix2App.swift in Sources */,
 			);
