@@ -8,36 +8,39 @@
 import SwiftUI
 
 struct SliderView: View {
-    @State private var sliderValue = Double.random(in: 0...255)
+    
+    @Binding var sliderValue: Double //принимает значение от слайдера
+    @State private var textValue = "" // первичный источник данных, передаем значение в текстовое  поле
     
     let color: Color
     
     var body: some View {
-        SliderParametrs(value: $sliderValue, color: color)
+        HStack{
+            ColorValueTextView(value: sliderValue)
+            Slider(value: $sliderValue, in: 0...255, step: 1)
+                .accentColor(color) //цвет для слайдера
+            // чтобы в реальном времени передавать значения из слайдера в текстовое поле, используем onChange
+                .onChange(of: sliderValue) { isOnFocus in //isOnFocus - это обновленное значение, передаем его в текстовое поле textValue
+                    textValue = "\(lround(isOnFocus))"
+                }
+            ColorValueTFView(textValue: $textValue, value: $sliderValue)
+        }
+        .onAppear {
+            textValue = "\(lround(sliderValue))"
+        }
     }
 }
 
 struct SliderView_Previews: PreviewProvider {
     static var previews: some View {
-        SliderView(color: .green)
-    }
-}
-
-struct SliderParametrs: View {
-    @Binding var value: Double
-    
-    let color: Color
-
-    var body: some View {
-        HStack {
-            Text("0")
-            Slider(value: $value, in: 0...255, step: 1)
-                .accentColor(color)
-            Text("\(lround(value))")
-                .frame(width: 35)
+        ZStack {
+            Color.gray
+            SliderView(sliderValue: .constant(100), color: .red)
         }
     }
 }
+
+
 
 
 
