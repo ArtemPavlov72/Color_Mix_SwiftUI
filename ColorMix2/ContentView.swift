@@ -18,7 +18,7 @@ struct ContentView: View {
              //               SliderView(color: .red), green: <#T##Double#>, blue: <#T##Double#>)
             //SliderView(color: .red)
             redSlider
-            Text("\(redSlider.get1Value())")
+        
             SliderView(color: .green)
             SliderView(color: .blue)
         }

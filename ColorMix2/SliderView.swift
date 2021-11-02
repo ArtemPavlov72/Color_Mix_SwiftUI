@@ -15,12 +15,6 @@ struct SliderView: View {
     var body: some View {
         SliderParametrs(value: $sliderValue, color: color)
     }
-    
-    func get1Value() -> Double {
-        
-        return SliderParametrs.getValue()
-    }
-
 }
 
 struct SliderView_Previews: PreviewProvider {
@@ -33,11 +27,7 @@ struct SliderParametrs: View {
     @Binding var value: Double
     
     let color: Color
-    
-    func getValue() -> String {
-         return value
-    }
-    
+
     var body: some View {
         HStack {
             Text("0")

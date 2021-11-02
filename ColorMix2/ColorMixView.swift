@@ -15,6 +15,7 @@ struct ColorMixView: View {
     var body: some View {
         RoundedRectangle(cornerRadius: 40)
             .foregroundColor(
+                //передаем значения цветов во view
                 Color(
                     red: red/255,
                     green: green/255,
