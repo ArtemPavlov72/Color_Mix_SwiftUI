@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  ColorMix2
 //
-//  Created by iMac on 31.10.2021.
+//  Created by Artem Pavlov on 31.10.2021.
 //
 
 import SwiftUI

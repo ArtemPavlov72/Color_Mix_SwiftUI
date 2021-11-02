@@ -14,6 +14,7 @@
 		884F8B76272F0B3200886F29 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884F8B75272F0B3200886F29 /* SliderView.swift */; };
 		88729DE1272F216B00ED067C /* ColorMixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88729DE0272F216B00ED067C /* ColorMixView.swift */; };
 		88AF7EAD27310F6900D98B53 /* ColorValueTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF7EAC27310F6900D98B53 /* ColorValueTextView.swift */; };
+		88AF7EAF2731154300D98B53 /* ColorValueTFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF7EAE2731154300D98B53 /* ColorValueTFView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		884F8B75272F0B3200886F29 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		88729DE0272F216B00ED067C /* ColorMixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorMixView.swift; sourceTree = "<group>"; };
 		88AF7EAC27310F6900D98B53 /* ColorValueTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorValueTextView.swift; sourceTree = "<group>"; };
+		88AF7EAE2731154300D98B53 /* ColorValueTFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorValueTFView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				88729DE0272F216B00ED067C /* ColorMixView.swift */,
 				884F8B75272F0B3200886F29 /* SliderView.swift */,
 				88AF7EAC27310F6900D98B53 /* ColorValueTextView.swift */,
+				88AF7EAE2731154300D98B53 /* ColorValueTFView.swift */,
 				884F8B6B272F0A3400886F29 /* Assets.xcassets */,
 				884F8B6D272F0A3400886F29 /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			files = (
 				884F8B6A272F0A3300886F29 /* ContentView.swift in Sources */,
 				88729DE1272F216B00ED067C /* ColorMixView.swift in Sources */,
+				88AF7EAF2731154300D98B53 /* ColorValueTFView.swift in Sources */,
 				88AF7EAD27310F6900D98B53 /* ColorValueTextView.swift in Sources */,
 				884F8B76272F0B3200886F29 /* SliderView.swift in Sources */,
 				884F8B68272F0A3300886F29 /* ColorMix2App.swift in Sources */,
