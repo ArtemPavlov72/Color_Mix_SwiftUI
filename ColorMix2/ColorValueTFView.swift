@@ -17,8 +17,7 @@ struct ColorValueTFView: View {
     
     var body: some View {
         TextField("", text: $textValue) { _ in //в текстовое поле передаем текстовое значение, которое конвертируется из значения, передаваемое из слайдера
-            
-            
+            checkValue() //проверяем вводимое значение
         }
         .frame(width: 55, alignment: .trailing)
         .multilineTextAlignment(.trailing) //выравнивание для текста
